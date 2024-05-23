@@ -1,0 +1,278 @@
+[
+    {
+        "code": "x = 1",
+        "variables": ["x"],
+        "len": 1
+    },
+    {
+        "code": "x, y = 1, 2",
+        "variables": ["x", "y"],
+        "len": 1
+    },
+    {
+        "code": "def func(): pass",
+        "variables": ["func"],
+        "len": 1
+    },
+    {
+        "code": "for i in range(5): pass",
+        "variables": ["i"],
+        "len": 1
+    },
+    {
+        "code": "x = [i for i in range(10)]",
+        "variables": ["x", "i"],
+        "len": 1
+    },
+    {
+        "code": "y = {'a': 1, 'b': 2}",
+        "variables": ["y"],
+        "len": 1
+    },
+    {
+        "code": "def add(a, b): return a + b",
+        "variables": ["add", "a", "b"],
+        "len": 1
+    },
+    {
+        "code": "import os",
+        "variables": ["os"],
+        "len": 1
+    },
+    {
+        "code": "x = 1\nx = 2",
+        "variables": ["x"],
+        "len": 2
+    },
+    {
+        "code": "def func():\n    x = 1",
+        "variables": ["func", "x"],
+        "len": 2
+    },
+    {
+        "code": "if True:\n    x = 1",
+        "variables": ["x"],
+        "len": 2
+    },
+    {
+        "code": "try:\n    x = 1\nexcept:\n    pass",
+        "variables": ["x"],
+        "len": 4
+    },
+    {
+        "code": "class MyClass:\n    def method(self):\n        pass",
+        "variables": ["MyClass", "method", "self"],
+        "len": 3
+    },
+    {
+        "code": "import os\nimport sys",
+        "variables": ["os", "sys"],
+        "len": 2
+    },
+    {
+        "code": "x = 1\ny = 2\nz = x + y",
+        "variables": ["x", "y", "z"],
+        "len": 3
+    },
+    {
+        "code": "for i in range(5):\n    for j in range(5):\n        pass",
+        "variables": ["i", "j"],
+        "len": 3
+    },
+    {
+        "code": "x = 1\nif x > 0:\n    y = x\nelse:\n    y = 0",
+        "variables": ["x", "y"],
+        "len": 4
+    },
+    {
+        "code": "with open('file.txt', 'w') as f:\n    pass",
+        "variables": ["f"],
+        "len": 2
+    },
+    {
+        "code": "def func(a):\n    return a * 2\nb = func(5)",
+        "variables": ["func", "a", "b"],
+        "len": 3
+    },
+    {
+        "code": "try:\n    x = 1\nexcept ValueError:\n    x = 0\nfinally:\n    y = 2",
+        "variables": ["x", "y"],
+        "len": 5
+    },
+    {
+        "code": "import os\nos.system('ls')",
+        "variables": ["os"],
+        "len": 2
+    },
+    {
+        "code": "def add(x, y):\n    return x + y\ndef sub(x, y):\n    return x - y",
+        "variables": ["add", "x", "y", "sub"],
+        "len": 4
+    },
+    {
+        "code": "class MyClass:\n    def __init__(self, x):\n        self.x = x",
+        "variables": ["MyClass", "__init__", "self", "x"],
+        "len": 3
+    },
+    {
+        "code": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)",
+        "variables": ["factorial", "n"],
+        "len": 5
+    },
+    {
+        "code": "x = [1, 2, 3]\ny = [4, 5, 6]\nz = x + y",
+        "variables": ["x", "y", "z"],
+        "len": 3
+    },
+    {
+        "code": "s = 'hello'",
+        "variables": ["s"],
+        "len": 1
+    },
+    {
+        "code": "result = 1 + 2 * 3 / 4",
+        "variables": ["result"],
+        "len": 1
+    },
+    {
+        "code": "is_valid = True",
+        "variables": ["is_valid"],
+        "len": 1
+    },
+    {
+        "code": "def greet(name):\n    return f'Hello, {name}'",
+        "variables": ["greet", "name"],
+        "len": 2
+    },
+    {
+        "code": "items = [1, 2, 3, 4]",
+        "variables": ["items"],
+        "len": 1
+    },
+    {
+        "code": "square = lambda x: x * x",
+        "variables": ["square", "x"],
+        "len": 1
+    },
+    {
+        "code": "data = {'key': 'value'}",
+        "variables": ["data"],
+        "len": 1
+    },
+    {
+        "code": "sum = 0\nfor i in range(5):\n    sum += i",
+        "variables": ["sum", "i"],
+        "len": 3
+    },
+    {
+        "code": "from math import sqrt\nresult = sqrt(16)",
+        "variables": ["sqrt", "result"],
+        "len": 2
+    },
+    {
+        "code": "x = 5\ny = x**2",
+        "variables": ["x", "y"],
+        "len": 2
+    },
+    {
+        "code": "numbers = list(range(10))",
+        "variables": ["numbers"],
+        "len": 1
+    },
+    {
+        "code": "x, y, z = 1, 2, 3",
+        "variables": ["x", "y", "z"],
+        "len": 1
+    },
+    {
+        "code": "values = [x for x in range(10)]",
+        "variables": ["values", "x"],
+        "len": 1
+    },
+    {
+        "code": "def foo():\n    pass",
+        "variables": ["foo"],
+        "len": 2
+    },
+    {
+        "code": "msg = 'world'\nprint('Hello', msg)",
+        "variables": ["msg"],
+        "len": 2
+    },
+    {
+        "code": "def multiply(a, b):\n    return a * b",
+        "variables": ["multiply", "a", "b"],
+        "len": 2
+    },
+    {
+        "code": "for x in range(3):\n    print(x)",
+        "variables": ["x"],
+        "len": 2
+    },
+    {
+        "code": "try:\n    result = 10 / 0\nexcept ZeroDivisionError:\n    result = None",
+        "variables": ["result"],
+        "len": 4
+    },
+    {
+        "code": "def calculate(a, b):\n    sum = a + b\n    return sum",
+        "variables": ["calculate", "a", "b", "sum"],
+        "len": 3
+    },
+    {
+        "code": "def outer():\n    def inner():\n        pass\n    inner()",
+        "variables": ["outer", "inner"],
+        "len": 4
+    },
+    {
+        "code": "value = 10\nif value > 5:\n    value = 0",
+        "variables": ["value"],
+        "len": 3
+    },
+    {
+        "code": "x = 1\ny = 2\nif x < y:\n    z = y - x",
+        "variables": ["x", "y", "z"],
+        "len": 4
+    },
+    {
+        "code": "def is_even(n):\n    return n % 2 == 0",
+        "variables": ["is_even", "n"],
+        "len": 2
+    },
+    {
+        "code": "while False:\n    break",
+        "variables": [],
+        "len": 2
+    },
+    {
+        "code": "a = 1\nb = 2\nc = 3",
+        "variables": ["a", "b", "c"],
+        "len": 3
+    },
+    {
+        "code": "name = 'Alice'\nprint(f'Hello, {name}')",
+        "variables": ["name"],
+        "len": 2
+    },
+    {
+        "code": "def add(a, b):\n    return a + b\ndef sub(a, b):\n    return a - b",
+        "variables": ["add", "sub", "a", "b"],
+        "len": 4
+    },
+    {
+        "code": "with open('file.txt') as f:\n    lines = f.readlines()",
+        "variables": ["f", "lines"],
+        "len": 2
+    },
+    {
+        "code": "x = 5\nfor i in range(x):\n    print(i)",
+        "variables": ["x", "i"],
+        "len": 3
+    },
+    {
+        "code": "def greet():\n    return 'Hello'\nmessage = greet()",
+        "variables": ["greet", "message"],
+        "len": 3
+    }
+]
+
